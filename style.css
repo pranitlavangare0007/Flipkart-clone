@@ -56,6 +56,10 @@ body{
     position: absolute;
     left: 250px;
 }
+.inner1 i:hover{
+    opacity: 1;
+}
+
 .inner1 input{
     width: 80%;
     border-radius: 30px;
@@ -72,19 +76,30 @@ body{
     height: 40px;
     width: 40%;
     display: flex;
-    margin-left: 5px;
-padding-top: 6px;
+    justify-content: center;
+    /* margin-left: 5px;
+padding-top: 6px; */
 
 }
 .login{
-    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    /* padding: 8px; */
 
-    width: 30%;
+    width: 25%;
+    opacity: 0.6;
+    background-color: rgb(10, 29, 196);
+    border-radius: 5px;
+    /* margin-bottom: 5px; */
+}
+.login:hover{
+    opacity: 1;
 }
 .login i{
-    padding-right: 8px;
+    padding-right: 6px;
     font-size: 22px;
-    opacity: 0.6;
+    /* opacity: 0.6; */
 }
 #drop{
     border: none;
@@ -92,10 +107,19 @@ padding-top: 6px;
 .inner1 img{
     height: 50px;
 }
+
 .inner2 .icon{
-   padding-right: 30px;
-    font-size: 22px;
+    padding-right: 30px;
+    font-size: 20px;
     opacity: 0.6;
+}
+.inner2 .icon:hover{
+    opacity: 1;
+}
+
+
+.inner2 span{
+    padding-left: 8px;
 }
 
 .main-first{
