@@ -1,0 +1,117 @@
+body{
+   
+    margin: 5px;
+    font-family: "Ropa Sans", sans-serif;
+    
+}
+.page{
+    display: flex;
+    flex-direction: column;
+}
+
+.search-bar{
+    background-color: white;
+    height: 3rem;
+    width: 100%;
+    position: fixed;
+ 
+}
+.main{
+    background-color: whitesmoke;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+   
+   
+}
+.info{
+    background-color: yellow;
+    height: 10vh;
+}
+.footer{
+    background-color: green;
+    height: 10vh;
+
+
+}
+
+.outer-search{
+   display: flex;
+    align-content: center;
+    padding: 10px;
+    margin: 0 60px 0 60px;
+}
+.inner1{
+    height: 40px;
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.inner1 i{
+    padding-top: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    opacity: 0.5;
+    position: absolute;
+    left: 250px;
+}
+.inner1 input{
+    width: 80%;
+    border-radius: 30px;
+    background-color: aliceblue;
+    padding-left: 60px;
+    border: none;
+}
+.inner1 input::placeholder{
+    padding-left: 20px;
+    font-size: 20px;
+    opacity: 0.6;
+}
+.inner2{
+    height: 40px;
+    width: 40%;
+    display: flex;
+    margin-left: 5px;
+padding-top: 6px;
+
+}
+.login{
+    padding-left: 10px;
+
+    width: 30%;
+}
+.login i{
+    padding-right: 8px;
+    font-size: 22px;
+    opacity: 0.6;
+}
+#drop{
+    border: none;
+}
+.inner1 img{
+    height: 50px;
+}
+.inner2 .icon{
+   padding-right: 30px;
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.main-first{
+    background-color: white;
+    width: 99%;
+    height: 150px;
+    margin-top: 68px;
+ display: flex;
+ 
+    
+}
+.poster {
+    margin: 10px 40px 0 50px;
+   
+}
+.p1 img{
+height: 85px;
+width: 85px;
+}
