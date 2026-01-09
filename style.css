@@ -1,7 +1,7 @@
 body{
    
     margin: 5px;
-    font-family: "Ropa Sans", sans-serif;
+    font-family:  sans-serif;
     
 }
 .page{
@@ -18,19 +18,20 @@ body{
 }
 .main{
     background-color: whitesmoke;
-    height: 80vh;
+   
     display: flex;
-    justify-content: center;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
    
    
 }
 .info{
-    background-color: yellow;
-    height: 10vh;
+   
+ 
 }
 .footer{
-    background-color: green;
-    height: 10vh;
+   
+   
 
 
 }
@@ -43,14 +44,14 @@ body{
 }
 .inner1{
     height: 40px;
-    width: 70%;
+    width: 62%;
     display: flex;
     justify-content: flex-start;
    
 }
 .inner1 i{
     padding-top: 10px;
-    margin-right: 10px;
+    
     font-size: 25px;
     opacity: 0.5;
     position: absolute;
@@ -71,50 +72,71 @@ body{
     padding-left: 20px;
     font-size: 20px;
     opacity: 0.6;
+    
 }
 .inner2{
     height: 40px;
-    width: 40%;
+   
     display: flex;
     justify-content: center;
-    /* margin-left: 5px;
-padding-top: 6px; */
 
 }
 .login{
     display: flex;
     justify-content: center;
     padding-top: 10px;
-    /* padding: 8px; */
-
     width: 25%;
-    opacity: 0.6;
-    background-color: rgb(10, 29, 196);
-    border-radius: 5px;
-    /* margin-bottom: 5px; */
+    margin-left: 20px;
+    margin-right: 25px;
+     border-radius: 8px;
+ 
 }
 .login:hover{
     opacity: 1;
+    background-color: rgb(54, 69, 207);
+    color: white;
+   
+
 }
+
 .login i{
     padding-right: 6px;
     font-size: 22px;
-    /* opacity: 0.6; */
+
 }
-#drop{
-    border: none;
-}
+
 .inner1 img{
     height: 50px;
 }
 
-.inner2 .icon{
-    padding-right: 30px;
-    font-size: 20px;
-    opacity: 0.6;
+.inner2 .icon1{
+  
+  width: 130px;
+    padding-top: 10px;
+    font-size: 19px;
+   
 }
-.inner2 .icon:hover{
-    opacity: 1;
+
+.inner2 .icon2{
+  
+  width: 260px;
+    padding-top: 10px;
+    font-size: 19px;
+   
+}
+.inner2 .icon3{
+
+    padding-top: 10px;
+    font-size: 20px;
+    padding: 10px 8px 10px 8px;
+      border-radius: 5px;
+       border: 1px solid white;
+
+}
+.inner2 .icon3:hover{
+    background-color: rgb(229, 229, 229);
+    border: 1px solid black;
+  
 }
 
 
@@ -126,16 +148,110 @@ padding-top: 6px; */
     background-color: white;
     width: 99%;
     height: 150px;
-    margin-top: 68px;
+    margin: 70px 10px 10px 10px;
  display: flex;
  
     
 }
+.main-first span{
+    font-size: 15px;
+}
 .poster {
-    margin: 10px 40px 0 50px;
+    display: flex;
+    flex-direction: column;
+   justify-content: space-evenly;
+   margin: 10px 50px 10px 10px;
    
 }
-.p1 img{
-height: 85px;
-width: 85px;
+.p1{
+    margin-left: 110px;
+}
+
+.poster img{
+       height: 75px;
+width: 75px;
+
+}
+.main-second{
+    background-color: white;
+    width: 99%;
+    height: 250px;
+   margin: 10px;
+   margin-top: 4px;
+ display: flex;
+ 
+}
+.main-second .banner{
+    display: flex;
+     flex-direction: column;
+    
+}
+.main-second .banner img {
+    width: 100%;
+}
+
+.main-third{
+    background-color: white;
+    width: 99%;
+    height: 350px;
+    margin: 10px 10px 10px 10px;
+ display: flex;
+}
+ .third-poster{
+    display: flex;
+    flex-direction: column;
+     justify-content: space-evenly;
+   margin: 35px 100px 10px 10px;
+}
+.main-third #heading{
+    position: absolute;
+    font-weight: 500;
+    width: 150px;
+    font-size: 25px;
+    margin: 20px 0 0 20px;
+    height: 30px;
+}
+
+ .third-poster img {
+      height: 70%;
+      width: 120px;
+}
+.t1{
+    margin-left: 70px;
+    padding-top: 30px;
+    height: 250px;
+    width: 90px;
+   
+}
+.third-poster span{
+    width: 130px;
+    font-size: 15px;
+}
+.monitor img{
+    height: 150px;
+      width: 160px;
+}
+
+.cam img{
+    width: 140px;
+    height: 130px;
+}
+.sound img{
+    height: 190px;
+    width: 90px;
+    padding-left: 20px;
+}
+.monitor span{
+    padding-left: 30px;
+}
+.sound span{
+    margin-bottom: 30px;
+    width: 170px;
+}
+.sound{
+    margin-right: 45px;
+}
+.watch img{
+    height: 160px;
+    width: 130px;
 }
