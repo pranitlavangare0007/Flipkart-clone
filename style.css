@@ -91,18 +91,63 @@ body{
      border-radius: 8px;
  
 }
+.login span{
+    margin-right: 8px;
+}
 .login:hover{
     opacity: 1;
     background-color: rgb(54, 69, 207);
     color: white;
    
+    
+}
 
+.login:hover .login-option{
+    /* display: block; */
 }
 
 .login i{
     padding-right: 6px;
     font-size: 22px;
 
+}
+
+.login-option{
+    position: absolute;
+    background-color:white;
+    right: 325px;
+    top: 50px;
+    height: 300px;
+    width: 300px;
+    border: 2px sold black;
+    border-radius: 8px;
+    box-shadow: 2px  0 10px rgb(50, 49, 49);
+    /* display: none; */
+}
+.option-main{
+   
+    display: flex;
+    flex-direction: column;
+   
+  
+}
+.top-option{
+    display: flex;
+    justify-content: space-around;
+    height: 45px;
+    font-size: 20px;
+}
+.sub-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+    
+}
+.sub-option p{
+   margin: 0;
+    line-height: 39px;
+    font-size: 16px;
 }
 
 .inner1 img{
@@ -165,6 +210,17 @@ body{
 }
 .p1{
     margin-left: 110px;
+}
+.p3 #down{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    left: 490px;
+    top: 180px;
+    transition: 0.4s ease;
+}
+.p3 #down:hover{
+    transform: rotate(180deg);
 }
 
 .poster img{
